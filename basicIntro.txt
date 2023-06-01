@@ -19,3 +19,11 @@ git reset --hard upstream/main >> rest main branch log
 git pull origin master
 git pull upstream/main
 git pull
+*******************************
+
+working with repo.
+
+git remote add origin path("https://github.com/aksharma05/learning_git")
+git remote -v  >> all push and fetch related urls
+git push origin master >> push all change in orgin master/branch
+git remote add upstream urlPath("https://github.com/Orginpath")
