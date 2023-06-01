@@ -27,3 +27,10 @@ git remote add origin path("https://github.com/aksharma05/learning_git")
 git remote -v  >> all push and fetch related urls
 git push origin master >> push all change in orgin master/branch
 git remote add upstream urlPath("https://github.com/Orginpath")
+
+
+git reset --hard upstream/main >> rest main branch log
+
+git rebase -i hashkeyvalue
+pick key
+s key
