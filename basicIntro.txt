@@ -12,3 +12,10 @@ del "names.txt"  >>  delete specific file names
 git reset hashkeyvalue  >> where you wanted to reset the git commit or restore the commit
 git stash  >> save working directory
 git stash clear  >>  clear all changes which is in stash area/pending area git stash
+
+
+git reset --hard upstream/main >> rest main branch log
+
+git pull origin master
+git pull upstream/main
+git pull
