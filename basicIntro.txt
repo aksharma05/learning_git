@@ -12,3 +12,13 @@ del "names.txt"  >>  delete specific file names
 git reset hashkeyvalue  >> where you wanted to reset the git commit or restore the commit
 git stash  >> save working directory
 git stash clear  >>  clear all changes which is in stash area/pending area git stash
+
+
+*******************************
+
+working with repo.
+
+git remote add origin path("https://github.com/aksharma05/learning_git")
+git remote -v  >> all push and fetch related urls
+git push origin master >> push all change in orgin master/branch
+git remote add upstream urlPath("https://github.com/Orginpath")
