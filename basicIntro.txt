@@ -1,0 +1,14 @@
+git init
+ls .git
+ls -a
+cat filename.txt
+git status
+git add .  >> add all file/changes
+git commit -m "file has been change" >> filer add in repo
+git restore --staged names.txt
+git log  >> all details of commit info
+del "names.txt"  >>  delete specific file names
+
+git reset hashkeyvalue  >> where you wanted to reset the git commit or restore the commit
+git stash  >> save working directory
+git stash clear  >>  clear all changes which is in stash area/pending area git stash
